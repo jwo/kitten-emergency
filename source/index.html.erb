@@ -1,0 +1,20 @@
+---
+title: Welcome to Middleman
+---
+
+<% 6.times do %>
+  <div class="col-md-6">
+    <div class="media">
+
+      <div class="media-left">
+        <a href="#">
+          <%= image_tag "http://placekitten.com/g/200/#{(200..500).to_a.sample}", class: "img-responsive img-thumbnail media-object" %>
+        </a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Media heading</h4>
+        Bacon Ipsum yall
+      </div>
+    </div>
+  </div>
+<% end %>
